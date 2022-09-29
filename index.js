@@ -67,7 +67,7 @@ function move() {
         data = meta;
     }
     
-    if (data == 0){
+    if (data < 0){
         // generator(data);
         pillar(0, shift);
     }else{
@@ -103,7 +103,7 @@ function generator(g) {
         gen = 8.5 * 37.8;
     }
     else {
-        gen = 0;
+        gen = radius;
 }}
 
 function getStandard() {
