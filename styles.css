@@ -106,3 +106,45 @@ h4 {
 #final-save {
     margin-right: 3%;
 }
+
+/* for ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #data {
+        margin: 0;
+    }
+}
+
+/* for ipad pro */
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #data {
+            margin: 0;
+        }
+}
+
+/* for ipad pro 12.9' */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #data {
+            margin: 0;
+        }
+}
+
+/* ipad air */
+@media only screen and (min-device-width: 1180px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #data {
+            margin: 0;
+        }
+}
+
+::-webkit-scrollbar {
+
+    -webkit-appearance: none;
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
