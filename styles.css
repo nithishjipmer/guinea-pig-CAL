@@ -25,7 +25,7 @@ body {
         z-index: 5;
         width: 2%;
         height: 402px;
-        right: 320px;
+        right: 31.5%;
     }
 
 }
@@ -127,7 +127,7 @@ h4 {
 }
 
 .end1 input {
-    width: 40%;
+    width: 30%;
     height: 65%;
     margin: 3% 9% 2% 2%;
 }
