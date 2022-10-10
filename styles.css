@@ -9,11 +9,11 @@ body {
 @media only screen and (min-width: 1270px) {
     #ruler {
             position: absolute;
-            top: 73px;
+            top: 74px;
             z-index: 5;
             width: 2%;
             height: 402px;
-            right: 37%;
+            right: 39%;
         }
 }
 

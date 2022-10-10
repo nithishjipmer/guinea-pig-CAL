@@ -199,3 +199,5 @@ function check() {
 function reload(){
     location.reload()
 }
+
+$("#ruler").draggable({containment:"body",revert:true});
